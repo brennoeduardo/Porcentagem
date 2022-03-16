@@ -1,0 +1,83 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(103, 192, 155);
+}
+
+.layout{
+    padding: 20px;
+    background-color: white;
+    min-height: 500px;
+    width: 425px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+.paragrafo{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#input-numero{
+    margin-top: 25px;
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+#input-porcentagem{
+    margin-top: 25px;
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+#resultado{
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+#resultado2{
+    margin-top: 55px;
+    height: 25px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#botao{
+    margin-left: 155px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(73, 165, 127);
+    color: white;
+}
+
+#botao:hover{
+    background-color: rgb(112, 255, 196);
+    color: black;
+    cursor: pointer;
+}
