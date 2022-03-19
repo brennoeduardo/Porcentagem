@@ -11,7 +11,6 @@ calcular.addEventListener("click", function(){
         resultado.innerText = "Insira valores válidos!"
     } else {
         var calculo = Number(porcentagem.value) * Number(moeda.value) / 100
-        resultado.innerHTML = calculo
+        resultado.innerHTML = calculo.toFixed(3)
     }
-
 })
